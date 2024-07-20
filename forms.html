@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiey Form</title>
+    <style>
+        body{
+            background-color: black;
+            color: azure;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Enquiry Form</h1>
+
+    <p>Please fill the below form, Our team will get back soon.</p>
+     <form action="thanks.html" method="get">
+        <!-- taking user name -->
+     <label for="name">Name:</label><br>
+     <input type="text" name="UserName" required><br>
+     <!-- taking mobile number -->
+     <label for="Mobile">Mobile Number:</label><br>
+     <input type="tel" name="UserMobileNo"><br> 
+     <!-- taking EmailId  -->
+     <label for="EmailId">Email ID:</label><br>
+     <input type="text" name="UserEmailID"><br>
+     <!-- asking for the gender -->
+      <p>Select your  gender</p>
+      <input type="radio" name="gender" value="This person is Male">Male
+      <input type="radio" name="gender" value="this person is Female">Female
+      <!-- asking for favororite food -->
+       <p>Select your favorite sport</p>
+       <input type="checkbox" name="sport1"id=""value="c">Criket<br>
+       <input type="checkbox" name="sport2"id=""value="f">Football<br>
+       <input type="checkbox" name="sport3"id=""value="s">Shooting<br>
+       <br>
+        Date of Birth:<br>
+       <input type="datetime-local" name="id">
+       <br>
+       Password:<br>
+       <input type="password" name="" id=""><br>
+       <!-- <input type="text" name=""id=""value="INDIA"disabled> -->
+
+     <!-- <textarea name="comments" id=cols="30" rows="10"></textarea> -->
+     <br><br>
+    <input type="submit" value="submit"> <br>
+   <input type="reset" value="clear">
+     </form>
+     <!-- <form action=""><br>
+        //placeholder
+        <input type="text" placeholder="Enter your name"><br>
+        <input type="tel" placeholder="Mobile No."><br>
+        <input type="email" placeholder="EmailId."><br>
+        <textarea name="" id="" cols="20" rows="5"></textarea><br>
+        <input type="submit" value="Submit"><br>
+        <input type="reset" value="clear"><br>
+
+     </form> -->
+   
+
+
+</body>
+
+</html>
